@@ -6,7 +6,7 @@ body {overflow-x: hidden;}
 font: bold 15px sans-serif;
 margin: 0;
 height: 25px;
-line-height: 28px;
+line-height: 40px;
 text-align: center;
 }
 
@@ -59,7 +59,7 @@ font-weight:900;
 }
 
 table#bcalendar thead {
-background:#556B2F;  /* Cor de fundo CabeÁalho:MÍs */
+background:#556B2F;  /* Cor de fundo Cabe√ßalho:M√™s */
 }
 
 table#bcalendar thead tr th {  /* Entradas */
@@ -76,7 +76,7 @@ width:100%;
 background:#fff;
 }
 
-table#bcalendar tbody tr td { /* CÈlulas do calendario */
+table#bcalendar tbody tr td { /* C√©lulas do calendario */
 text-align:center;
 padding:2px;
 border:1px solid #CD853F;
@@ -97,7 +97,7 @@ td.emptyCell {visibility: hidden;}
 
 td.highlightCell:hover {opacity: 0.42;}
 
-td.highlightCell {  /* cÈlulas ativas */
+td.highlightCell {  /* c√©lulas ativas */
 background:#F4A460;
 border:1px outset #CD853F;
 }
@@ -120,7 +120,7 @@ td#bcFootNext {width:10px;}
 ul#calendarUl {margin:5px auto 0!important;}
 ul#calendarUl li a{color: #6D6D6E;}
 
-/* CustomizaÁ„o links abaixo do calend·rio
+/* Customiza√ß√£o links abaixo do calend√°rio
 ------------------------------------- */
 
 ul#calendarUl li{
@@ -258,7 +258,7 @@ background: #F5F5DC;  /* coloque cor de fundo se quiser */
 
 
 
-/*-- pagina estatica Mapa do Blog e para destacar coment·rios do autor em Pamonha News --*/
+/*-- pagina estatica Mapa do Blog e para destacar coment√°rios do autor em Pamonha News --*/
 
 .marcador {background:transparent url(http://edleuso.files.wordpress.com/2011/06/background1.png) left center no-repeat;padding-left: 16px;}
 .marcadorautor {background:transparent url(http://edleuso.files.wordpress.com/2011/11/cancel.png) left center no-repeat;
@@ -291,8 +291,8 @@ margin:.25em 0 0;
 margin:5px 5px 5px -5px;
 padding:45px 35px 35px 4px;
 /* border:2px dotted #FEF9EA;  edite a cor da borda */
-background:#FAFAD2;  /* edite cor de fundo do seu coment·rio*/
-color:#5F5042;  /* edite cor do texto do seu coment·rio*/
+background:#FAFAD2;  /* edite cor de fundo do seu coment√°rio*/
+color:#5F5042;  /* edite cor do texto do seu coment√°rio*/
 font-weight:800;
 }
 
@@ -308,13 +308,13 @@ margin:.25em 0 0;
 margin:5px 5px 5px -5px;
 padding:45px 35px 35px 4px;
 /*border:1px dotted #D2B48C; edite a cor da borda */
-background:#FFFAFA;  /* edite cor de fundo do seu coment·rio*/
-color:#5F5042;  /* edite cor do texto do seu coment·rio*/
+background:#FFFAFA;  /* edite cor de fundo do seu coment√°rio*/
+color:#5F5042;  /* edite cor do texto do seu coment√°rio*/
 font-weight:800;
 }
 
 /*-- esconder mensagem mostrar posts com o marcador tal 
-.status-msg-wrap{display:none !important;} PARA QUE A P¡GINA DE ERRO 404 FUNCIONE N√O PODER¡ USAR ESTA LINHA ACIMA CSS OU EXCLUIR O C”DIGO QUE EXIBE MOSTRAR MARCADOR TAL--*/
+.status-msg-wrap{display:none !important;} PARA QUE A P√ÅGINA DE ERRO 404 FUNCIONE N√ÉO PODER√Å USAR ESTA LINHA ACIMA CSS OU EXCLUIR O C√ìDIGO QUE EXIBE MOSTRAR MARCADOR TAL--*/
 
 
 /*--- Seta Topo ---*/
@@ -463,7 +463,7 @@ a.says{color:#000;font:normal 11px Arial,Tahoma,Verdana}
 .feed-links{clear:both;line-height:2.5em;display: none;}
 
 /* Profile ----------------------------------------------- */
-.profile-name-link{padding-left:0px !important;}/* o padding-left em 0 tira espaÁo do lado direito do nome BARAKA*/
+.profile-name-link{padding-left:0px !important;}/* o padding-left em 0 tira espa√ßo do lado direito do nome BARAKA*/
 .profile-img{float:$startSide;margin-top:0;margin-$endSide:5px;margin-bottom:5px;margin-$startSide:0;padding:4px;border:1px solid $bordercolor}
 .profile-data{margin:0;text-transform:uppercase;letter-spacing:.1em;font:$postfooterfont;color:$sidebarcolor;font-weight:bold;line-height:1.6em}
 .profile-datablock{margin:.5em 0 .5em}
