@@ -1,0 +1,510 @@
+/* ------------------------- FAIXA -------------------------- */
+
+body {overflow-x: hidden;}
+
+#faixa{
+font: bold 15px sans-serif;
+margin: 0;
+height: 25px;
+line-height: 28px;
+text-align: center;
+}
+
+#faixa2 {color: #c1272d;}
+
+#faixa1 {
+width: 150px;
+position: absolute;
+top:0;
+right:0;
+background: #fcd249;
+border: 1px solid white;
+box-shadow: 4px 0 5px black;
+
+-moz-transform-origin: top left;
+-webkit-transform-origin: top left;
+-o-transform-origin: top left;
+-ms-transform-origin: top left;
+-transform-origin: top-left;
+
+-moz-transform: translate(77px, -30px) rotate(45deg);
+-webkit-transform: translate(77px, -30px) rotate(45deg);
+-o-transform: translate(77px, -30px) rotate(45deg);
+-ms-transform: translate(77px, -30px) rotate(45deg);
+transform: translate(77px, -30px) rotate(45deg);
+}
+
+
+
+/* Arquivo Calendario
+----------------------------------------------- */
+
+#blogger_calendar {
+margin:5px 0 0 0;
+width:100%;
+}
+
+#bcaption {
+border:1px solid #CD853F;
+padding:2px;
+margin:0px;/*margin:10px 0 0;*/
+background:#DEB887;
+}
+
+#bcaption select {
+border:0px;
+background:#DEB887;
+color:#8B4513;
+font-weight:900;
+}
+
+table#bcalendar thead {
+background:#556B2F;  /* Cor de fundo Cabeçalho:Mês */
+}
+
+table#bcalendar thead tr th {  /* Entradas */
+width:20px;text-align:center;
+padding:2px; border:1px solid #000;
+font-family:Tahoma;
+font-weight:bold;color:#fff;
+}
+
+table#bcalendar {
+border:1px solid #CD853F;
+border-top:0; margin:0px 0 0px;
+width:100%;
+background:#fff;
+}
+
+table#bcalendar tbody tr td { /* Células do calendario */
+text-align:center;
+padding:2px;
+border:1px solid #CD853F;
+/*color:#1F1FFF;*/
+}
+
+table#bcalendar tbody tr td a {  /* links do calendario */
+font-weight:bold;
+color:#000;
+}
+
+td.firstCell {visibility: visible;opacity: 0.53;}
+
+td.filledCell {background: #fff;opacity: 0.53;}
+
+td.emptyCell {visibility: hidden;}
+
+
+td.highlightCell:hover {opacity: 0.42;}
+
+td.highlightCell {  /* células ativas */
+background:#F4A460;
+border:1px outset #CD853F;
+}
+
+/* Table Footer Navigation */
+table#bcNavigation  {
+width:100%;
+background:#DEB887;
+border:1px solid #CD853F;
+border-top:0;
+}
+table#bcNavigation a {
+ext-decoration:none;
+color:#8B4513;
+font-weight: 700;
+}
+td#bcFootPrev {width:10px;}
+td#bcFootAll{text-align:center;}
+td#bcFootNext {width:10px;}
+ul#calendarUl {margin:5px auto 0!important;}
+ul#calendarUl li a{color: #6D6D6E;}
+
+/* Customização links abaixo do calendário
+------------------------------------- */
+
+ul#calendarUl li{
+border-width: 1px !important;
+margin: 0px !important;
+
+}
+
+
+ul#calendarUl a{
+margin-left:0px;
+/*display: block;*/
+padding-top: 2px;
+padding-bottom: 3px;
+
+background:transparent url('http://edleuso.files.wordpress.com/2013/07/043.png') no-repeat ; padding-left: 18px;padding-top:0px;
+
+}
+ul#calendarUl a:hover{
+text-decoration: none !important;
+color: #F69717 !important;
+
+}
+
+.linksdomes {
+
+margin-top:12px;
+margim-bottom:5px;
+font-weight:500;
+color:#B22222;
+background:transparent url(http://edleuso.files.wordpress.com/2013/07/151.png) left center no-repeat;padding-left: 16px;
+
+}
+
+
+
+/*---------------------- Breadcrumbs ------------------------------------- */
+.breadcrumbs {
+color:#5F9EA0; 
+padding: 5px 5px 5px 0px;
+margin: -13px 0px 25px 0px;
+font-size: 116%;
+line-height: 1.4em;
+/*border-bottom: 3px double #E6E4E3; */
+}
+
+
+
+/* Erro 404
+----------------------------------------------- */
+/* Geral */
+
+
+#erro-404 {
+padding:20px;
+}
+/* Estilo do primeiro texto */
+.errot1-404 {
+color: #A0522D;
+font-size: 100px;
+font-weight: bold;
+text-transform: uppercase;
+text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #C9C9C9, 0 3px 0 #BBBBBB, 0 4px 0 #B9B9B9, 0 5px 0 #AAAAAA, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Estilo do segundo texto */
+.errot2-404 {
+color: #8B4C39;
+font-size: 50px;
+font-weight: bold;
+text-transform: uppercase;
+text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #C9C9C9, 0 3px 0 #BBBBBB, 0 4px 0 #B9B9B9, 0 5px 0 #AAAAAA, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Estilo do terceiro texto */
+.errot3-404 {
+padding:20px;
+color:#414141;
+text-shadow: 1px 2px 3px #fff;
+text-align:center;
+font-size:20px;
+}
+
+
+/* Estilo do botao */
+.errot4-404 {
+margin-top:20px;
+padding:10px;
+display:inline-block;
+text-shadow:0 1px 1px #fff;
+text-decoration:none;
+font: bold 13px Sans-Serif;
+border:1px solid #DDD;
+border-radius:3px;
+border-color: #999;
+background: -webkit-linear-gradient(top, white, #E0E0E0);
+background: -moz-linear-gradient(top, white, #E0E0E0);
+background: -ms-linear-gradient(top, white, #E0E0E0);
+background: -o-linear-gradient(top, white, #E0E0E0);
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.25), inset 0 0 3px #fff;
+-moz-box-shadow:0 1px 2px rgba(0,0,0,0.25), inset 0 0 3px #fff;
+box-shadow: 0 1px 2px rgba(0,0,0,0.25), inset 0 0 3px #fff;
+}
+
+/* -------------------------------------------------------------------------- */
+
+
+
+/*-- Aviso rodape --*/
+#avisorodape{
+text-align:center;
+font-size:14px;
+font-weight:600;
+margin-bottom:10px;
+text-transform: uppercase;
+color:#F5DEB3 !important;
+font-family: Arial,Helvetica,sans-serif;
+text-decoration:underline;
+}
+
+
+/*-- imagem no final das postagens --*/
+
+#finalpost{
+margin:5px 0px 10px 0px;  /* distancia entre o texto e o post */
+padding:10px 5px 10px 5px;  /* edite se quiser */
+font-size:13px;  /* edite tamanho da fonte */
+text-align:left;   /* alinhamento do texto */
+color: #8B4513;  /* cor da fonte */
+border: 1px solid #B22222;   /* coloque borda se quiser  */
+background: #F5F5DC;  /* coloque cor de fundo se quiser */
+}
+
+
+
+/*-- pagina estatica Mapa do Blog e para destacar comentários do autor em Pamonha News --*/
+
+.marcador {background:transparent url(http://edleuso.files.wordpress.com/2011/06/background1.png) left center no-repeat;padding-left: 16px;}
+.marcadorautor {background:transparent url(http://edleuso.files.wordpress.com/2011/11/cancel.png) left center no-repeat;
+padding-left:16px;}
+.marcadorautor2 {border: 1px solid #E1DFDB;padding:5px;background-color:#FFFFF0;}
+
+
+/*---- enquetes -----*/
+
+
+.votar {float:left !important;}
+a.votar{color:#FFF !important;background:url(http://edleuso.files.wordpress.com/2011/06/readmore-bg.png) left -128px repeat-x !important;padding:6px 14px !important;font-size:12px !important;line-height:12px !important;display:block !important;text-decoration:none !important;border:1px solid #F69717 !important;border-radius: 5px !important;-moz-border-radius: 5px !important;-webkit-border-radius: 5px !important;}
+a.votar:hover{color:#755333 !important;background:url(http://edleuso.files.wordpress.com/2011/06/readmore-bg.png) left top repeat-x !important;text-decoration:none !important;border:1px solid #EADDD1 !important;}
+
+.resultados {float:left !important;}
+a.resultados{color:#755333 !important; border:1px solid #EADDD1 !important;padding:6px 14px !important;font-size:12px !important;line-height:12px !important;background-color:#F5F5DC !importantborder-radius: 5px !important;-moz-border-radius: 5px !important;-webkit-border-radius: 5px !important;}
+a.resultados:hover{color:#755333 !important;border:1px solid #EADDD1 !important;background-color:#FFFFF0 !important;}
+
+
+img.opaco:hover {opacity: 0.72 !important;} /*--- efeito hover das imagens do slide ---*/
+
+
+/* destacar comentarios do autor do blog */
+
+.blog-author-comment {
+margin:.25em 0 0;
+}
+.blog-author-comment p {
+
+margin:5px 5px 5px -5px;
+padding:45px 35px 35px 4px;
+/* border:2px dotted #FEF9EA;  edite a cor da borda */
+background:#FAFAD2;  /* edite cor de fundo do seu comentário*/
+color:#5F5042;  /* edite cor do texto do seu comentário*/
+font-weight:800;
+}
+
+
+/* correcao cometraios outros */
+
+.blog-outros-comment {
+margin:.25em 0 0;
+}
+
+.blog-outros-comment p {
+
+margin:5px 5px 5px -5px;
+padding:45px 35px 35px 4px;
+/*border:1px dotted #D2B48C; edite a cor da borda */
+background:#FFFAFA;  /* edite cor de fundo do seu comentário*/
+color:#5F5042;  /* edite cor do texto do seu comentário*/
+font-weight:800;
+}
+
+/*-- esconder mensagem mostrar posts com o marcador tal 
+.status-msg-wrap{display:none !important;} PARA QUE A PÁGINA DE ERRO 404 FUNCIONE NÃO PODERÁ USAR ESTA LINHA ACIMA CSS OU EXCLUIR O CÓDIGO QUE EXIBE MOSTRAR MARCADOR TAL--*/
+
+
+/*--- Seta Topo ---*/
+
+#seta {
+   text-align:center;
+   margin:7px 0 25px 0;
+   padding:0px;
+   }
+
+
+body{background:transparent url(http://edleuso.files.wordpress.com/2012/09/titulo_pamonha_grande33.png) center top no-repeat;color:#5B5047;font-family: Arial, Verdana;font-size: 12px;margin: 0px 0px 0px 0px;padding:0px;background-color: #F0F0F0;}
+a:link,a:visited{color:#F69717;text-decoration:underline;outline:none;}
+a:hover{color:#F65B17;text-decoration:underline;outline:none;}
+a img{border-width:0}
+#body-wrapper{background: transparent url(http://edleuso.files.wordpress.com/2012/09/footer_pamonha_1.png) center bottom no-repeat;
+margin: 0px;padding: 0px;}
+blockquote{overflow:hidden;padding-left:9px;font-style:italic;color:#666;border-left:3px solid #CADAE7;} /*-- citacao --*/
+
+/* Header-----------------------------------------------*/
+#header-wrapper{background: transparent url(http://edleuso.files.wordpress.com/2012/09/newtitlepamonha3.png) no-repeat;width:950px;margin:0px auto 0px;height:60px;padding:55px 0px;overflow:hidden;}
+#header-inner{background-position:center;margin-left:auto;margin-right:auto}
+#header{margin:0;border:0 solid $bordercolor;color:$pagetitlecolor;float:left;width:47%;overflow:hidden;}
+#header h1{margin:0 5px 0;padding:0px 0px 0px 0px;font-family:Arial, Helvetica, Sans-serif;font-weight:bold;font-size:40px;line-height:40px;color:#3B3127;}
+#header .description{padding-left:7px;color:#3B3127;line-height:14px;font-size:14px;padding-top:0px;margin-top:5px;}
+#header h1 a,#header h1 a:visited{color:#3B3127;text-decoration:none}
+#header h2{padding-left:15px;color:#3B3127;font:14px Arial,Helvetica,Sans-serif}
+#header2{float:right;width:51%;margin-right:0px;padding-right:0px;overflow:hidden;}
+#header2 .widget{padding:0px 0px 0px 0px;float:right}
+/* Outer-Wrapper----------------------------------------------- */
+#outer-wrapper{width:950px;margin:0px auto 0px;padding:0;text-align:$startSide;font:$bodyfont;}
+#content-wrapper{background:#FFFFFF;}
+#main-wrapper{width:610px;padding-top:10px;padding-left:15px;padding-right:0px;float:left;word-wrap:break-word;/* fix for long text breaking sidebar float in IE */
+overflow:hidden;/* fix for long non-text content breaking IE sidebar float */
+}
+#rsidebar-wrapper{width:302px;float:right;margin-left:0px;margin-right:0px;padding-right:10px;padding-top:10px;padding-bottom:15px;word-wrap:break-word;/* fix for long text breaking sidebar float in IE */
+overflow:hidden;/* fix for long non-text content breaking IE sidebar float */
+}
+
+/* Headings----------------------------------------------- */
+h2{}
+/* Posts-----------------------------------------------*/
+h2.date-header{margin:15px 0px 20px 0px;font-size:26px;text-transform: uppercase;font-family:Arial, Helvetica, Sans-serif;text-shadow: 2px 2px 0 #DEB887;}
+.wrapfullpost{}
+.post{border-bottom:1px solid #D5CFC9;margin-bottom:15px;padding:0;}
+.post-title{color:#2E241B;margin:0 0 10px 0;padding:0;font-family:Arial,Helvetica,Sans-serif;font-size:19px;line-height:19px;font-weight:bold;text-shadow: 1px 1px 0 #DEB887;}
+.post-title a,.post-title a:visited,.post-title strong{display:block;text-decoration:none;color:#2E241B;text-decoration:none;}
+.post-title strong,.post-title a:hover{color:#F69717;text-decoration:none;}
+.post-body{margin:0px;padding:0px 10px 0px 0px;font-family: Arial, Verdana;font-size: 12px;line-height: 20px;}
+.post-footer{margin:5px 0;}
+.comment-link{margin-$startSide:.6em}
+.post-body img{padding:6px;background:#FFFFFF;border:1px solid #D4CEC8;}
+.postmeta-primary{color:#9E9A9A;font-size:11px;text-transform:uppercase;padding:0 0 5px 0}
+.postmeta-secondary{color:#9E9A9A;font-size:11px;padding:10px 0 15px 0}
+.postmeta-primary a,.postmeta-secondary a{color:#F69717}
+.postmeta-primary a:hover,.postmeta-secondary a:hover{color:#F65B17}
+.meta_date,.meta_author,.meta_comments,.meta_edit,.meta_categories,.meta_tags{padding:3px 0 3px 20px;background-position:left center;background-repeat:no-repeat}
+.meta_date{background-image:url(http://edleuso.files.wordpress.com/2011/02/087.png)}
+.meta_author{background-image:url(http://edleuso.files.wordpress.com/2011/02/005.png)}
+.meta_comments{background-image:url(http://edleuso.files.wordpress.com/2011/02/028.png)}
+.meta_edit{background-image:url(images/edit.png)}
+.meta_categories{background-image:url(http://edleuso.files.wordpress.com/2011/02/tag_green.png)}
+.meta_tags{background-image:url(http://3.bp.blogspot.com/-tiBRGaa0A4s/TbdsE4iqayI/AAAAAAAAFMo/kiv5vYoj4wk/s1600/tags.png)}
+
+#showlink{margin-bottom:15px;float:right;}/*---- Leia mais -----*/
+a.showlink{color:#FFF;background:url(http://edleuso.files.wordpress.com/2011/06/readmore-bg.png) left -128px repeat-x;padding:6px 14px;font-size:13px;line-height:12px;display:block;text-decoration:none;border:1px solid #F69717;border-radius: 5px; -moz-border-radius: 5px;-webkit-border-radius: 5px;}
+a.showlink:hover{color:#755333;background:url(http://edleuso.files.wordpress.com/2011/06/readmore-bg.png) left top repeat-x;text-decoration:none;border:1px solid #EADDD1;}
+
+.featuredposts{border:1px solid #D4CEC8;width:608px;background:#F5F5DC;margin:0 0 10px 0;height:426px;overflow:hidden}
+.fp-slides{}
+.fp-post{padding:13px;}
+.fp-thumbnail{width:580px;height:300px;margin-bottom:10px;overflow:hidden}
+.fp-title{color:#4A4848;font:bold 16px Arial,Helvetica,Sans-serif;padding:0 0 4px 0;margin:0}
+.fp-title a{color:#4A4848;text-decoration:none;text-shadow: 1px 1px 0 burlyWood;}
+.fp-title a:hover{color:#000;text-decoration:none}
+.fp-label{color:#504D4D;margin:15px 15px 0 15px;padding:0;text-transform:uppercase;font:bold 16px/16px Arial,Helvetica,Sans-serif}
+.fp-post p{color:#504D4D;padding:0;margin:0;font:12px/16px Arial,Helvetica,Sans-serif;height:32px;overflow:hidden}
+.fp-more,.fp-more:hover{color:#000;font-weight:bold}
+.fp-nav{width:590px;padding:8px 10px;height:17px}
+.fp-pager a{background-image:url(http://edleuso.files.wordpress.com/2011/06/featured-pager.png);cursor:pointer;margin:3px 6px 0 0;padding:0;height:10px;width:10px;display:block;float:left;overflow:hidden;text-indent:-999px;background-position:0 0}
+.fp-pager a:hover,.fp-pager a.activeSlide{text-decoration:none;background-position:0 -110px}
+.fp-prev{float:right;margin-right:4px;width:15px;height:17px;opacity:0.7;background:url(http://edleuso.files.wordpress.com/2011/06/featured-prev.png) top left no-repeat}
+.fp-prev:hover{opacity:1}
+.fp-prev:active{opacity:0.7}
+.fp-next{float:right;width:15px;height:17px;margin-left:4px;opacity:0.7;background:url(http://edleuso.files.wordpress.com/2011/06/featured-next.png) top left no-repeat}
+.fp-next:hover{opacity:1}
+.fp-next:active{opacity:0.7}
+/* Sidebar Content----------------------------------------------- */
+.sidebar{margin:0 0 10px 0;font-size:13px;color:#6D6D6E;}
+.sidebar a{text-decoration:none;color:#6D6D6E;}
+.sidebar a:hover{text-decoration:none;color:#E98B0C;}
+.sidebar h2{color:#1C150F;font-size:15px;line-height:16px;font-family:Arial,Helvetica,sans-serif;margin:0 0 10px 0;padding:6px 0 6px 14px;text-transform:uppercase;text-shadow: 1px 1px 0 #DEB887;background:url(http://edleuso.files.wordpress.com/2011/06/folder06.png) left center no-repeat;font-weight:bold;border-bottom: 2px solid #CDC5BF;}
+.sidebar ul{list-style-type:none;list-style:none;margin:0px;padding:0px;}
+.sidebar ul li{padding:6px 0 6px 14px;background:url(http://edleuso.files.wordpress.com/2011/06/widget-list.png) left 11px no-repeat;border-bottom:1px dashed #CFCDCD;}
+.sidebar .widget{margin: 0 0 15px 0;padding:0px;}
+.main .widget{margin:0 0 5px;padding:0 0 2px}
+.main .Blog{border-bottom-width:0}
+/* FOOTER ----------------------------------------------- */
+#footer-wrap{}
+#footer{}
+#copyrights{color:#FFF;text-align:center;padding:20px;background:#5F5042;text-shadow:0 1px 0 #000}
+#copyrights a{color:#FFF}
+#copyrights a:hover{color:#FFF;text-decoration:none}
+#credits{color:#493828;text-align:center;font-size:11px;padding:10px 0;text-shadow:0 1px 0 #fff}
+#credits a{color:#493828;text-decoration:none}
+#credits a:hover{text-decoration:none;color:#493828}
+#footer-column-container {clear:both;padding:0px 0px 10px 0px;color:#6D6D6E;background:#ffffff;}
+#footer-column-container a{text-decoration:none;color:#6D6D6E;}
+#footer-column-container a:hover{text-decoration:none;color:#E98B0C;}
+#footer-column-container h2{color:#1C150F;font-size:15px;line-height:16px;font-family:Arial,Helvetica,sans-serif;margin:0 0 10px 0;padding:6px 0 6px 14px;text-transform:uppercase;text-shadow: 1px 1px 0 #DEB887; background:url(http://edleuso.files.wordpress.com/2011/06/folder06.png) left center no-repeat;font-weight:bold;border-bottom: 2px solid #CDC5BF;}
+#footer-column-container ul{list-style-type:none;list-style:none;margin:0px;padding:0px;}
+#footer-column-container ul li{padding:6px 0 6px 14px;background:url(http://edleuso.files.wordpress.com/2011/06/widget-list.png) left 11px no-repeat;border-bottom:1px dashed #CFCDCD;}
+.footer-column {padding: 4px 10px;}
+
+
+
+
+/* Search NATIVO DESATIVADO ----------------------------------------------- 
+#search{border:1px solid #ECE8E5;background:url(http://edleuso.files.wordpress.com/2011/06/search-bg.png) left top repeat-x;height:32px;padding:0;text-align:left;overflow:hidden}
+#search #s{background:none;color:#6E5E4F;border:0;padding:4px;margin:3px 0 0 2px;float:left}
+#search .search-image{border:0;vertical-align:top;float:right;margin:8px 4px 0 2px}
+#search-wrap{width:300px;padding:15px 0}
+.topsearch #search{margin-top:0;margin-bottom:10px} ---------------------------*/
+
+
+
+
+
+/* Comments----------------------------------------------- */
+#comments h4{text-shadow: 1px 1px 0 #DEB887;font-size:17px;font-weight:bold;letter-spacing:0;line-height:1.4em;margin:1em 0;color:$sidebarcolor}
+#comments-block3{padding:0;margin:0;float:left;overflow:hidden;position:relative;}
+#comment-name-url{width:465px;float:left}
+#comment-date{width:465px;float:left;margin-top:5px;font-size:10px;}
+#comment-header{float:left;border:1px solid #ddd;padding:5px 0 40px 10px;margin:5px 0px;background-color:#fff;position:relative;-moz-border-radius:8px;-khtml-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;}
+.avatar-image-container{background:url(http://edleuso.files.wordpress.com/2011/06/comment-avatar.jpg);width:32px;height:32px;float:right;margin:5px 10px 5px 5px;border:1px solid #ddd;}
+.avatar-image-container img{width:32px;height:32px;}
+a.comments-autor-name{color:#000;font:normal bold 12px Arial,Tahoma,Verdana}
+a.says{color:#000;font:normal 11px Arial,Tahoma,Verdana}
+.says a:hover{text-decoration:none}
+.deleted-comment{font-style:italic;color:gray}
+#blog-pager-newer-link{float:$startSide}
+#blog-pager-older-link{float:$endSide}
+#blog-pager{text-align:center;}
+
+/*-- Esconde posts atom --*/
+.feed-links{clear:both;line-height:2.5em;display: none;}
+
+/* Profile ----------------------------------------------- */
+.profile-name-link{padding-left:0px !important;}/* o padding-left em 0 tira espaço do lado direito do nome BARAKA*/
+.profile-img{float:$startSide;margin-top:0;margin-$endSide:5px;margin-bottom:5px;margin-$startSide:0;padding:4px;border:1px solid $bordercolor}
+.profile-data{margin:0;text-transform:uppercase;letter-spacing:.1em;font:$postfooterfont;color:$sidebarcolor;font-weight:bold;line-height:1.6em}
+.profile-datablock{margin:.5em 0 .5em}
+.profile-textblock{margin:0.5em 0;line-height:1.6em}
+.avatar-image-container{background:url(http://4.bp.blogspot.com/_4HKUHirY_2U/TLlJUqSaolI/AAAAAAAAEq4/qpgAHAOe9x0/s1600/comment-avatar.jpg);width:32px;height:32px;float:right;margin:5px 10px 5px 5px;border:1px solid #ddd;}
+.avatar-image-container img{width:32px;height:32px;}
+.profile-link{font:$postfooterfont;text-transform:uppercase;letter-spacing:.1em;}
+
+/*-- Esconde a barra do blogger --*/
+#navbar-iframe{height:0;visibility:hidden;display:none;}
+
+/* -- social connect widget -- */
+.social-connect-widget{background:#FFFFF0;border:1px solid #EDE9E4;padding:10px}
+.social-connect-widget:hover{border:1px solid #E1DFDB;background:#F5F5DC}
+.social-connect-widget a{text-decoration:none;font-weight:bold;font-family:Arial,Helvetica,Sans-serif;color:#6D6D6E}
+.social-connect-widget a:hover{text-decoration:underline;color:#E98B0C}
+.social-connect-widget img{vertical-align:middle;margin-right:5px}
+/* -- number page navigation -- */
+#blog-pager {padding:6px 10px}
+.showpageArea{float:left}
+.showpageOf{margin:0 8px 0 0;padding:5px 9px;color:#232323;font:15px Arial,Verdana;background:transparent;font-weight: bold;text-shadow: 1px 1px 0 burlyWood;}
+.showpagePoint{color:#fff;font:bold 15px Arial,Verdana;padding:5px 9px;margin:2px;border:0px solid #fff;background:#f69717;text-decoration:none;}
+.showpageNum a{font:15px Arial,Verdana;padding:5px 9px;margin:0 4px;text-decoration:none;background:transparent;color:#232323;font-weight: bold;text-shadow: 1px 1px 0 burlyWood;}
+.showpageNum a:hover{color:#4f3013;background:#eaddd1;}
+.showpage a{font:15px Arial,Verdana;padding:5px 9px;margin:0 4px;text-decoration:none;background:transparent;color:#232323;font-weight: bold;text-shadow: 1px 1px 0 burlyWood;}
+.showpage a:hover{color:#4f3013;background:#eaddd1;}
+.showpageArea{margin:10px 0;font:15px Arial,Verdana;color:#232323;}
+.addthis_toolbox{padding:0px 0 5px 0;text-align:center}
+.addthis_toolbox .custom_images a{width:32px;height:32px;margin:0 4px 0 4px;padding:0}
+.addthis_toolbox .custom_images a:hover img{opacity:1}
+.addthis_toolbox .custom_images a img{opacity:0.45}
+#comment-form iframe{padding:5px;width:600px}
+.tabs-widget{list-style:none;list-style-type:none;margin:0 0 10px 0;padding:0;height:32px}
+.tabs-widget li{list-style:none;list-style-type:none;margin:0 0 0 4px;padding:0;float:left}
+.tabs-widget li:first-child{margin:0}
+.tabs-widget li a{color:#9A8B7C;background:url(http://edleuso.files.wordpress.com/2011/06/tabs-widget-bg.png) left top repeat-x;padding:10px 14px;display:block;text-decoration:none;font:bold 11px Arial,Helvetica,Sans-serif;text-transform:uppercase}
+.tabs-widget li a:hover,.tabs-widget li a.tabs-widget-current{background:url(http://edleuso.files.wordpress.com/2011/06/tabs-widget-bg.png) left -132px repeat-x;color:#F69717;text-decoration:none}
+.tabs-widget-content{}
+.tabviewsection{margin-top:10px;margin-bottom:10px;}
+#crosscol-wrapper{display:none;}
+.PopularPosts .item-title{font-weight:bold;padding-bottom:0.2em;}
+div.span-1,div.span-2,div.span-3,div.span-4,div.span-5,div.span-6,div.span-7,div.span-8,div.span-9,div.span-10,div.span-11,div.span-12,div.span-13,div.span-14,div.span-15,div.span-16,div.span-17,div.span-18,div.span-19,div.span-20,div.span-21,div.span-22,div.span-23,div.span-24{float:left;margin-right:10px}
+.span-1{width:30px}.span-2{width:70px}.span-3{width:110px}.span-4{width:150px}.span-5{width:190px}.span-6{width:230px}.span-7{width:270px}.span-8{width:310px}.span-9{width:350px}.span-10{width:390px}.span-11{width:430px}.span-12{width:470px}.span-13{width:510px}.span-14{width:550px}.span-15{width:590px}.span-16{width:630px}.span-17{width:670px}.span-18{width:710px}.span-19{width:750px}.span-20{width:790px}.span-21{width:830px}.span-22{width:870px}.span-23{width:910px}.span-24,div.span-24{width:950px;margin:0}input.span-1,textarea.span-1,input.span-2,textarea.span-2,input.span-3,textarea.span-3,input.span-4,textarea.span-4,input.span-5,textarea.span-5,input.span-6,textarea.span-6,input.span-7,textarea.span-7,input.span-8,textarea.span-8,input.span-9,textarea.span-9,input.span-10,textarea.span-10,input.span-11,textarea.span-11,input.span-12,textarea.span-12,input.span-13,textarea.span-13,input.span-14,textarea.span-14,input.span-15,textarea.span-15,input.span-16,textarea.span-16,input.span-17,textarea.span-17,input.span-18,textarea.span-18,input.span-19,textarea.span-19,input.span-20,textarea.span-20,input.span-21,textarea.span-21,input.span-22,textarea.span-22,input.span-23,textarea.span-23,input.span-24,textarea.span-24{border-left-width:1px!important;border-right-width:1px!important;padding-left:5px!important;padding-right:5px!important}input.span-1,textarea.span-1{width:18px!important}input.span-2,textarea.span-2{width:58px!important}input.span-3,textarea.span-3{width:98px!important}input.span-4,textarea.span-4{width:138px!important}input.span-5,textarea.span-5{width:178px!important}input.span-6,textarea.span-6{width:218px!important}input.span-7,textarea.span-7{width:258px!important}input.span-8,textarea.span-8{width:298px!important}input.span-9,textarea.span-9{width:338px!important}input.span-10,textarea.span-10{width:378px!important}input.span-11,textarea.span-11{width:418px!important}input.span-12,textarea.span-12{width:458px!important}input.span-13,textarea.span-13{width:498px!important}input.span-14,textarea.span-14{width:538px!important}input.span-15,textarea.span-15{width:578px!important}input.span-16,textarea.span-16{width:618px!important}input.span-17,textarea.span-17{width:658px!important}input.span-18,textarea.span-18{width:698px!important}input.span-19,textarea.span-19{width:738px!important}input.span-20,textarea.span-20{width:778px!important}input.span-21,textarea.span-21{width:818px!important}input.span-22,textarea.span-22{width:858px!important}input.span-23,textarea.span-23{width:898px!important}input.span-24,textarea.span-24{width:938px!important}.last{margin-right:0;padding-right:0}
+.last,div.last{margin-right:0}

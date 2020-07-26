@@ -1,0 +1,46 @@
+#navbar-iframe {height: 0px !important;} /* recuar espaço no top deixado pela navbar */
+
+
+
+
+.menus,.menus *{margin:0;padding:0;list-style:none;list-style-type:none;line-height:1.0}
+.menus ul{position:absolute;top:-999em;width:100%}
+.menus ul li{width:100%}
+.menus li:hover{visibility:inherit}
+.menus li{float:left;position:relative}
+.menus a{display:block;position:relative}
+.menus li:hover ul,.menus li.sfHover ul{left:0;top:100%;z-index:99}
+.menus li:hover li ul,.menus li.sfHover li ul{top:-999em}
+.menus li li:hover ul,.menus li li.sfHover ul{left:100%;top:0}
+.menus li li:hover li ul,.menus li li.sfHover li ul{top:-999em}
+.menus li li li:hover ul,.menus li li li.sfHover ul{left:100%;top:0}
+.sf-shadow ul{padding:0 8px 9px 0;-moz-border-radius-bottomleft:17px;-moz-border-radius-topright:17px;-webkit-border-top-right-radius:17px;-webkit-border-bottom-left-radius:17px}
+.menus .sf-shadow ul.sf-shadow-off{background:transparent}
+.menu-primary-wrap{padding:0;position:relative;height:34px;z-index:400;float:right;background:url(http://edleuso.files.wordpress.com/2011/06/menu-primary-bg.png) left top repeat-x;margin-top:20px;/*border-bottom:1px solid #E3E3E3;*/}
+.menu-primary{float:right}
+.menu-primary ul{min-width:160px}
+.menu-primary li{border-bottom:1px solid #E3E3E3;text-shadow: 0 1px 0 #DEB887;}
+.menu-primary li:first-child{}
+.menu-primary > li{margin-left:0}
+.menu-primary li a{color:#292119;padding:9px 13px 8px 13px;text-decoration:none;text-transform:uppercase;font:bold 12px Arial,Helvetica,Sans-serif;margin:0;border-top:1px solid #F0F0F0;border-left:1px solid #F0F0F0;border-right:1px solid #F0F0F0}
+.menu-primary li a:hover,.menu-primary li a:active,.menu-primary li a:focus,.menu-primary li:hover > a,.menu-primary li.current-cat > a,.menu-primary li.current_page_item > a,.menu-primary li.current-menu-item > a{color:#FF9200;outline:0;background:url(http://edleuso.files.wordpress.com/2011/06/menu-primary-bg.png) left -138px repeat-x;border-top:1px solid #E3E3E3;border-left:1px solid #E3E3E3;border-right:1px solid #E3E3E3}
+.menu-primary li li a{color:#292119;background:#FEFEFE;text-transform:none;padding:7px 15px;margin:0;font-weight:normal;border:0}
+.menu-primary li li a:hover,.menu-primary li li a:active,.menu-primary li li a:focus,.menu-primary li li:hover > a,.menu-primary li li.current-cat > a,.menu-primary li li.current_page_item > a,.menu-primary li li.current-menu-item > a{color:#FFF;background:#F69717;outline:0;border:0}
+.menu-primary a.sf-with-ul{padding-right:26px;min-width:1px}
+.menu-primary .sf-sub-indicator{position:absolute;display:block;overflow:hidden;right:0;top:0;padding:10px 13px 0 0}
+.menu-primary li li .sf-sub-indicator{padding:8px 13px 0 0}
+.menu-primary-wrap .sf-shadow ul{background-image:url(http://edleuso.files.wordpress.com/2011/06/menu-primary-shadow.png);background-position:bottom right;background-repeat:no-repeat}
+.menu-secondary-wrap{padding:0;margin:0 0 2px 0;position:relative;height:40px;z-index:300;border:1px solid #FFF;background:url(http://edleuso.files.wordpress.com/2011/06/menu-secondary-bg.png) left top repeat-x}
+.menu-secondary{}
+.menu-secondary li{background:url(http://edleuso.files.wordpress.com/2011/06/menu-secondary-separator.png) left center no-repeat;margin-left:2px}
+.menu-secondary li:first-child{background:none}
+.menu-secondary ul{min-width:160px}
+.menu-secondary li a{color:#493829;padding:15px 14px 12px 14px;text-decoration:none;text-transform:uppercase;font:bold 12px Arial,Helvetica,Sans-serif;margin-left:2px;text-shadow: 1px 1px 0 #DEB887;}
+.menu-secondary li a:hover,.menu-secondary li a:active,.menu-secondary li a:focus,.menu-secondary li:hover > a,.menu-secondary li.current-cat > a,.menu-secondary li.current_page_item > a,.menu-secondary li.current-menu-item > a{color:#FFF;background:url(http://edleuso.files.wordpress.com/2011/06/menu-secondary-bg.png) left -140px repeat-x;outline:0}
+.menu-secondary li li li{margin-left:0}
+.menu-secondary li li a{color:#F4F4F4;background:#28231F;padding:6px 8px;text-transform:none;margin:0;font-weight:normal;text-shadow:none}
+.menu-secondary li li a:hover,.menu-secondary li li a:active,.menu-secondary li li a:focus,.menu-secondary li li:hover > a,.menu-secondary li li.current-cat > a,.menu-secondary li li.current_page_item > a,.menu-secondary li li.current-menu-item > a{color:#F4F4F4;background:#F69717;outline:0;text-shadow:none}
+.menu-secondary a.sf-with-ul{padding-right:26px;min-width:1px}
+.menu-secondary .sf-sub-indicator{position:absolute;display:block;overflow:hidden;right:0;top:0;padding:13px 13px 0 0}
+.menu-secondary li li .sf-sub-indicator{position:absolute;display:block;overflow:hidden;right:0;top:0;padding:8px 13px 0 0}
+.menu-secondary-wrap .sf-shadow ul{background:url('http://edleuso.files.wordpress.com/2011/06/menu-secondary-shadow.png') no-repeat bottom right}
