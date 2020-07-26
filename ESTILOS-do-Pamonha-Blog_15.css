@@ -27,11 +27,11 @@ box-shadow: 4px 0 5px black;
 -ms-transform-origin: top left;
 -transform-origin: top-left;
 
--moz-transform: translate(77px, -30px) rotate(45deg);
--webkit-transform: translate(77px, -30px) rotate(45deg);
--o-transform: translate(77px, -30px) rotate(45deg);
--ms-transform: translate(77px, -30px) rotate(45deg);
-transform: translate(77px, -30px) rotate(45deg);
+-moz-transform: translate(88px, -30px) rotate(45deg);
+-webkit-transform: translate(88px, -30px) rotate(45deg);
+-o-transform: translate(88px, -30px) rotate(45deg);
+-ms-transform: translate(88px, -30px) rotate(45deg);
+transform: translate(88px, -30px) rotate(45deg);
 }
 
 
