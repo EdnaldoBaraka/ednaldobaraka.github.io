@@ -335,7 +335,7 @@ margin: 0px;padding: 0px;}
 blockquote{overflow:hidden;padding-left:9px;font-style:italic;color:#666;border-left:3px solid #CADAE7;} /*-- citacao --*/
 
 /* Header-----------------------------------------------*/
-#header-wrapper{background: transparent url(https://edleuso.files.wordpress.com/2020/08/newtitlepamonha3-1.png) no-repeat;width:950px;margin:0px auto 0px;height:60px;padding:55px 0px;overflow:hidden;}
+#header-wrapper{background: transparent url(https://edleuso.files.wordpress.com/2020/08/newtitlepamonha3b.png) no-repeat;width:950px;margin:0px auto 0px;height:60px;padding:55px 0px;overflow:hidden;}
 #header-inner{background-position:center;margin-left:auto;margin-right:auto}
 #header{margin:0;border:0 solid $bordercolor;color:$pagetitlecolor;float:left;width:47%;overflow:hidden;}
 #header h1{margin:0 5px 0;padding:0px 0px 0px 0px;font-family:Arial, Helvetica, Sans-serif;font-weight:bold;font-size:40px;line-height:40px;color:#3B3127;}
