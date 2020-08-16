@@ -45,7 +45,7 @@ font-size: 14px;/*--tamanho da fonte--*/
 color: #fff;/*--cor da fonte--*/
 /* padding: 10px 8px 10px 8px; */
 width: 100%;
-border: none;
+border: 2px;
 outline:none;
 -webkit-transition: 0.2s;
 -moz-transition: 0.2s;
