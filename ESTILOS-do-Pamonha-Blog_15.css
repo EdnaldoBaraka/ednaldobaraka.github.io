@@ -40,7 +40,7 @@ transform: translate(88px, -30px) rotate(45deg);
 ------------------------------------- */
 
 .BlogArchive #ArchiveList a{
-background: url(URL-DO-ICONE) no-repeat scroll 10px center;
+background: url('https://edleuso.files.wordpress.com/2013/07/151.png') no-repeat scroll 10px center;
 font-size:14px;  /*--edite tamanho da fonte--*/
 color: #000;   /*--edite cor da fonte--*/
 padding:5px 3px 5px 25px;  /*--edite espaçamento se quiser--*/
@@ -52,9 +52,9 @@ display:none;
 list-style:none outside none;
 }
 
-background:transparent url('http://edleuso.files.wordpress.com/2013/07/043.png') no-repeat ; padding-left: 18px;padding-top:0px;
+/* background:transparent url('http://edleuso.files.wordpress.com/2013/07/043.png') no-repeat ; padding-left: 18px;padding-top:0px;
 
-background:transparent url(http://edleuso.files.wordpress.com/2013/07/151.png) left center no-repeat;padding-left: 16px;
+background:transparent url(http://edleuso.files.wordpress.com/2013/07/151.png) left center no-repeat;padding-left: 16px;------------------------------------- */
 
 
 
