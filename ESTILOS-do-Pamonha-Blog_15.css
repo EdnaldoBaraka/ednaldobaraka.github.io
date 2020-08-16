@@ -36,124 +36,27 @@ transform: translate(88px, -30px) rotate(45deg);
 
 
 
-/* Arquivo Calendario
------------------------------------------------ */
-
-#blogger_calendar {
-margin:5px 0 0 0;
-width:100%;
-}
-
-#bcaption {
-border:1px solid #CD853F;
-padding:2px;
-margin:0px;/*margin:10px 0 0;*/
-background:#DEB887;
-}
-
-#bcaption select {
-border:0px;
-background:#DEB887;
-color:#8B4513;
-font-weight:900;
-}
-
-table#bcalendar thead {
-background:#556B2F;  /* Cor de fundo Cabeçalho:Mês */
-}
-
-table#bcalendar thead tr th {  /* Entradas */
-width:20px;text-align:center;
-padding:2px; border:1px solid #000;
-font-family:Tahoma;
-font-weight:bold;color:#fff;
-}
-
-table#bcalendar {
-border:1px solid #CD853F;
-border-top:0; margin:0px 0 0px;
-width:100%;
-background:#fff;
-}
-
-table#bcalendar tbody tr td { /* Células do calendario */
-text-align:center;
-padding:2px;
-border:1px solid #CD853F;
-/*color:#1F1FFF;*/
-}
-
-table#bcalendar tbody tr td a {  /* links do calendario */
-font-weight:bold;
-color:#000;
-}
-
-td.firstCell {visibility: visible;opacity: 0.53;}
-
-td.filledCell {background: #fff;opacity: 0.53;}
-
-td.emptyCell {visibility: hidden;}
-
-
-td.highlightCell:hover {opacity: 0.42;}
-
-td.highlightCell {  /* células ativas */
-background:#F4A460;
-border:1px outset #CD853F;
-}
-
-/* Table Footer Navigation */
-table#bcNavigation  {
-width:100%;
-background:#DEB887;
-border:1px solid #CD853F;
-border-top:0;
-}
-table#bcNavigation a {
-ext-decoration:none;
-color:#8B4513;
-font-weight: 700;
-}
-td#bcFootPrev {width:10px;}
-td#bcFootAll{text-align:center;}
-td#bcFootNext {width:10px;}
-ul#calendarUl {margin:5px auto 0!important;}
-ul#calendarUl li a{color: #6D6D6E;}
-
-/* Customização links abaixo do calendário
+/* Customização arquivo do blog
 ------------------------------------- */
 
-ul#calendarUl li{
-border-width: 1px !important;
-margin: 0px !important;
-
+.BlogArchive #ArchiveList a{
+background: url(URL-DO-ICONE) no-repeat scroll 10px center;
+font-size:14px;  /*--edite tamanho da fonte--*/
+color: #000;   /*--edite cor da fonte--*/
+padding:5px 3px 5px 25px;  /*--edite espaçamento se quiser--*/
+text-indent:0px;
+list-style-type:none;
 }
-
-
-ul#calendarUl a{
-margin-left:0px;
-/*display: block;*/
-padding-top: 2px;
-padding-bottom: 3px;
+.BlogArchive .zippy {
+display:none;
+list-style:none outside none;
+}
 
 background:transparent url('http://edleuso.files.wordpress.com/2013/07/043.png') no-repeat ; padding-left: 18px;padding-top:0px;
 
-}
-ul#calendarUl a:hover{
-text-decoration: none !important;
-color: #F69717 !important;
-
-}
-
-.linksdomes {
-
-margin-top:12px;
-margim-bottom:5px;
-font-weight:500;
-color:#B22222;
 background:transparent url(http://edleuso.files.wordpress.com/2013/07/151.png) left center no-repeat;padding-left: 16px;
 
-}
+
 
 
 
