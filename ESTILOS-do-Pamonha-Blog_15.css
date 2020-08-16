@@ -52,9 +52,14 @@ display:none;
 list-style:none outside none;
 }
 
-/* background:transparent url('http://edleuso.files.wordpress.com/2013/07/043.png') no-repeat ; padding-left: 18px;padding-top:0px;
-
-background:transparent url(http://edleuso.files.wordpress.com/2013/07/151.png) left center no-repeat;padding-left: 16px;------------------------------------- */
+#BlogArchive1{
+border:1px solid #000;  /* ---Coloque borda se quiser ---*/
+padding:5px;  /* ---edite as medidas ---*/
+background-color:#FFFFFF;  /* ---Coloque a cor de fundo se quiser---*/
+width:auto;   /* ---defina a largura se quiser ---*/
+height: 200px; /* ---edite a altura ---*/
+overflow: auto;
+}
 
 
 
