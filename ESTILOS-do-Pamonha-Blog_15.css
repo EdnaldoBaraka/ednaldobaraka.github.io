@@ -39,26 +39,17 @@ transform: translate(88px, -30px) rotate(45deg);
 /* Customização arquivo do blog
 ------------------------------------- */
 
-.BlogArchive #ArchiveList a{
-background: url('https://edleuso.files.wordpress.com/2013/07/151.png') no-repeat scroll 10px center;
-font-size:14px;  /*--edite tamanho da fonte--*/
-color: #000;   /*--edite cor da fonte--*/
-padding:5px 3px 5px 25px;  /*--edite espaçamento se quiser--*/
-text-indent:0px;
-list-style-type:none;
-}
-.BlogArchive .zippy {
-display:none;
-list-style:none outside none;
-}
-
-#BlogArchive1 {
-border:1px solid #000;  /* ---Coloque borda se quiser ---*/
-padding:5px;  /* ---edite as medidas ---*/
-background-color:#FFFFFF;  /* ---Coloque a cor de fundo se quiser---*/
-width:auto;   /* ---defina a largura se quiser ---*/
-height: 200px; /* ---edite a altura ---*/
-overflow: auto;
+#BlogArchive1_ArchiveMenu {
+background: #ff3b79;/*--cor de fundo do arquivo--*/
+font-size: 14px;/*--tamanho da fonte--*/
+color: #fff;/*--cor da fonte--*/
+padding: 10px 8px 10px 8px;
+width: 100%;
+border: none;
+outline:none;
+-webkit-transition: 0.2s;
+-moz-transition: 0.2s;
+-o-transition: 0.2s;
 }
 
 
