@@ -2,7 +2,7 @@
 .auroramenu-default,.auroramenu-default ul{padding:0;list-style-type:none}
 /*.auroramenu-default>li>a{border-bottom:1px #4261b8 solid} */
 .auroramenu-default>li>a:after{background: transparent url(https://edleuso.files.wordpress.com/2020/12/marcadordireita.png) right center no-repeat;}
-.auroramenu-default>li>a.open:after{content:"▲"}
+.auroramenu-default>li>a.open:after{background: transparent url(https://edleuso.files.wordpress.com/2020/12/marcadordireita.png) right center no-repeat;}
 .auroramenu-default a{/*color:#fff;background-color:#496aca;*/display:block;padding:10px;transition:background-color .5s ease}
 .auroramenu-default a:hover,.auroramenu-default a:focus{text-decoration:none}
 .auroramenu-default a:hover{background-color:#50b4ef}
