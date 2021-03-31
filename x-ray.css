@@ -1280,7 +1280,7 @@ aside#mobile_menu, .post, #side_wrap, nav {
   #tumblr_controls {
     display: block;
     position: fixed;
-    top: 50px; /* ajuste para escapar da mensagem do tumblr pedindo para instalar o app para celular */
+    top: 55px; /* ajuste para escapar da mensagem do tumblr pedindo para instalar o app para celular */
     right: 0;
     padding: 10px 20px;
     font-size: 22px;
@@ -1311,7 +1311,7 @@ aside#mobile_menu, .post, #side_wrap, nav {
 /* imagem que aparece quando a janela é redimensionada */
   .about_img_sub {
     position: fixed;
-    top: 50px; /* ajuste para escapar da mensagem do tumblr pedindo para instalar o app para celular */
+    top: 55px; /* ajuste para escapar da mensagem do tumblr pedindo para instalar o app para celular */
     left: 0;
     z-index: 9;
     display: flex;
