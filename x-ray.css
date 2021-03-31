@@ -187,7 +187,7 @@ main {
 }
 
 /*sidebar*/
-aside#mobile_menu {
+#mobile_menu {
   position: fixed;
   left: var(--barWidth);
   bottom: 100px;
@@ -279,7 +279,7 @@ aside#mobile_menu a {
 }
 
 aside#mobile_menu ul {
-  list-style-type: none;
+  list-style-type: disc;
   margin: 25px;
 }
 
